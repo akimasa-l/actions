@@ -30,7 +30,8 @@ jobs:
         run: echo Hello, world!
         
       - name: install clasp
-        run: npm i @google/clasp
+        run: npm i @google/clasp -g
+      
         
       - name: install clasp
         run: clasp help
