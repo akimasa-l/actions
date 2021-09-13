@@ -33,7 +33,7 @@ jobs:
         run: npm i @google/clasp -g
       
         
-      - name: install clasp
+      - name: clasp help
         run: clasp help
         
 
